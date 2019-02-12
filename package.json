@@ -1,9 +1,16 @@
 {
   "name": "jb-router",
   "description": "pure js router to route react component and more.",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
   "keywords": [
     "jb",
-    "jb-router"
+    "jb-router",
+    "router",
+    "react",
+    "react-router"
   ],
   "version": "0.0.1",
   "bugs": "https://github.com/javadbat/jb-router/issues",
@@ -16,7 +23,11 @@
     "dist/"
   ],
   "main": "index.js",
-  "repository": "javadbat/jb-router",
+  "jsnext:main":"./dist/Router.min.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-router.git"
+	},
   "dependencies": {
   }
 }
