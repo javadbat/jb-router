@@ -1,0 +1,22 @@
+{
+  "name": "jb-router",
+  "description": "pure js router to route react component and more.",
+  "keywords": [
+    "jb",
+    "jb-router"
+  ],
+  "version": "0.0.1",
+  "bugs": "https://github.com/javadbat/jb-router/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/",
+    "dist/"
+  ],
+  "main": "index.js",
+  "repository": "javadbat/jb-router",
+  "dependencies": {
+  }
+}
