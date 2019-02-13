@@ -22,8 +22,9 @@
     "lib/",
     "dist/"
   ],
-  "main": "index.js",
+  "main": "dist/Router.cjs.min.js",
   "jsnext:main":"./dist/Router.min.js",
+  "module": "./lib/Router.js",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-router.git"
