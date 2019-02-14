@@ -24,6 +24,7 @@ router config data is router config file that i will explain later
 ### create config file
 
 1.create a RouterData.js file
+
             class RouterData {
 
                 basePath= '/basePath'; // base path of rout page
@@ -33,7 +34,7 @@ router config data is router config file that i will explain later
                             {
                                 url:                "/", //path of page
                                 reactComponentPath: "ComponentFolder/ComponentFile", // component of page
-                                name:               "ComponentName", // name of page 
+                                name:               "ComponentName", // name of page
                                 title:              "Page title"//title of page
                             }
                 ] // array of path to open component
@@ -50,13 +51,13 @@ router config data is router config file that i will explain later
             childRoutes: [
                 {
                     url:                "/user",// this url add to parent url and create path  
-                    reactComponentPath: "ComponentFolder/UsersComponentFile",//componnet of page 
+                    reactComponentPath: "ComponentFolder/UsersComponentFile",//componnet of page
                     name:               "generalUser",// name of page
                     title:"اطلاعات کاربر", titel of page,
                     childRoutes: [
                         {
                             url:                "/add",// this url add to parent url and create path  
-                            reactComponentPath: "ComponentFolder/AddComponentFile",//componnet of page 
+                            reactComponentPath: "ComponentFolder/AddComponentFile",//componnet of page
                             name:               "AddUserPage",// name of page
                             title:"اضافه کردن کاربر",// titel of page
                         }
