@@ -3,8 +3,9 @@
 pure js router to route react component (not ready for public use yet)
 
 ## installation
-
-npm install jb-route(not ready yet)
+```sh
+npm install jb-route
+```
 
 ## initiate router
 
